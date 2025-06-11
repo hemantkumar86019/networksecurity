@@ -59,4 +59,4 @@ if __name__ == "__main__":
     records = network_obj.csv_to_json_convertor(file_path = FILE_PATH)
     print(records)
     no_of_records = network_obj.insert_data_mongodb(records, DATABASE, Collection)
-    print(no_of_records)  
+    print(no_of_records)
