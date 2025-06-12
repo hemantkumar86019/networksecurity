@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/heman/Downloads/ProjectML2/NetworkSecurity/mlruns/0/models/m-6379e50c820b4fcb82338552df7ee6f2/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+mlflow_version: 3.1.0
+model_id: m-6379e50c820b4fcb82338552df7ee6f2
+model_size_bytes: 501222
+model_uuid: m-6379e50c820b4fcb82338552df7ee6f2
+prompts: null
+run_id: 817aacc168f243e4992b2c740ffc26ab
+utc_time_created: '2025-06-12 10:23:20.963455'

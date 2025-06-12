@@ -1,0 +1,27 @@
+[ 2025-06-12 15:33:38,634 ] 18 root - INFO - Initiate the data ingestion
+[ 2025-06-12 15:33:41,286 ] 72 root - INFO - Performed train test split on the dataframe.
+[ 2025-06-12 15:33:41,286 ] 74 root - INFO - Exited split_data_as_train_test method of Data_ingestion class.
+[ 2025-06-12 15:33:41,287 ] 79 root - INFO - Exporting train and test file path.
+[ 2025-06-12 15:33:41,342 ] 84 root - INFO - Exported train test file path.
+[ 2025-06-12 15:33:41,343 ] 21 root - INFO - Data initiation completed
+[ 2025-06-12 15:33:41,348 ] 26 root - INFO - initiate the data validation
+[ 2025-06-12 15:33:41,397 ] 40 root - INFO - Required number of columns: 2
+[ 2025-06-12 15:33:41,398 ] 41 root - INFO - Data frame has columns: 31
+[ 2025-06-12 15:33:41,398 ] 40 root - INFO - Required number of columns: 2
+[ 2025-06-12 15:33:41,398 ] 41 root - INFO - Data frame has columns: 31
+[ 2025-06-12 15:33:41,398 ] 54 root - INFO - Expected numerical columns from schema: ['having_IP_Address', 'URL_Length', 'Shortining_Service', 'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix', 'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length', 'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor', 'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL', 'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe', 'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank', 'Google_Index', 'Links_pointing_to_page', 'Statistical_report', 'Result']
+[ 2025-06-12 15:33:41,399 ] 54 root - INFO - Expected numerical columns from schema: ['having_IP_Address', 'URL_Length', 'Shortining_Service', 'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix', 'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length', 'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor', 'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL', 'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe', 'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank', 'Google_Index', 'Links_pointing_to_page', 'Statistical_report', 'Result']
+[ 2025-06-12 15:33:41,532 ] 29 root - INFO - Data validation completed
+[ 2025-06-12 15:33:41,533 ] 32 root - INFO - data transformation started.
+[ 2025-06-12 15:33:41,533 ] 67 root - INFO - Entered initiate_data_transfromation method of DataTransformation class.
+[ 2025-06-12 15:33:41,533 ] 69 root - INFO - Starting data transformation.
+[ 2025-06-12 15:33:41,556 ] 52 root - INFO - Entered get_data_transformer_object method of Transformation class.
+[ 2025-06-12 15:33:41,556 ] 57 root - INFO - Initialises KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-06-12 15:33:41,569 ] 51 root - INFO - Entered the save_object method of MainUtils class.
+[ 2025-06-12 15:33:41,573 ] 55 root - INFO - Exited the save_object method of MainUtils class.
+[ 2025-06-12 15:33:41,574 ] 38 root - INFO - data transformation completed.
+[ 2025-06-12 15:33:41,574 ] 40 root - INFO - Model Training started.
+[ 2025-06-12 15:35:11,280 ] 51 root - INFO - Entered the save_object method of MainUtils class.
+[ 2025-06-12 15:35:11,286 ] 55 root - INFO - Exited the save_object method of MainUtils class.
+[ 2025-06-12 15:35:11,287 ] 134 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\06_12_2025_15_33_37\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9884662080129503, precision_score=0.9850776366202864, recall_score=0.9918781725888325), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.979757085020243, precision_score=0.9773828756058158, recall_score=0.9821428571428571))
+[ 2025-06-12 15:35:11,290 ] 44 root - INFO - Model trainer artifact created.

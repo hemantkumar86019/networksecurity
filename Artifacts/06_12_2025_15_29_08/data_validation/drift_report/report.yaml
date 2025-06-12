@@ -1,0 +1,93 @@
+Abnormal_URL:
+  drift_status: false
+  p-value: 0.7325666266216511
+DNSRecord:
+  drift_status: true
+  p-value: 0.031014991781958014
+Domain_registeration_length:
+  drift_status: false
+  p-value: 1.0
+Favicon:
+  drift_status: false
+  p-value: 0.9890321623362285
+Google_Index:
+  drift_status: false
+  p-value: 0.9999982228268777
+HTTPS_token:
+  drift_status: false
+  p-value: 0.31752605086735897
+Iframe:
+  drift_status: false
+  p-value: 1.0
+Links_in_tags:
+  drift_status: false
+  p-value: 0.14613004027937165
+Links_pointing_to_page:
+  drift_status: false
+  p-value: 0.1429819508368576
+Page_Rank:
+  drift_status: false
+  p-value: 0.1429819508368576
+Prefix_Suffix:
+  drift_status: false
+  p-value: 0.9985597993583677
+Redirect:
+  drift_status: false
+  p-value: 0.9999654772410788
+Request_URL:
+  drift_status: false
+  p-value: 0.7634837477364733
+Result:
+  drift_status: false
+  p-value: 0.06956361397693629
+RightClick:
+  drift_status: false
+  p-value: 1.0
+SFH:
+  drift_status: false
+  p-value: 0.9628916164648135
+SSLfinal_State:
+  drift_status: false
+  p-value: 0.33499598680276144
+Shortining_Service:
+  drift_status: false
+  p-value: 0.35927327177063706
+Statistical_report:
+  drift_status: false
+  p-value: 0.9999999999598222
+Submitting_to_email:
+  drift_status: false
+  p-value: 1.0
+URL_Length:
+  drift_status: false
+  p-value: 1.0
+URL_of_Anchor:
+  drift_status: false
+  p-value: 0.9086653866244705
+age_of_domain:
+  drift_status: false
+  p-value: 0.09073257895677306
+double_slash_redirecting:
+  drift_status: false
+  p-value: 0.653006152591551
+having_At_Symbol:
+  drift_status: false
+  p-value: 0.9925611176019148
+having_IP_Address:
+  drift_status: false
+  p-value: 1.0
+having_Sub_Domain:
+  drift_status: false
+  p-value: 0.6449841622347342
+on_mouseover:
+  drift_status: false
+  p-value: 1.0
+popUpWidnow:
+  drift_status: false
+  p-value: 0.9997752665277037
+port:
+  drift_status: false
+  p-value: 1.0
+web_traffic:
+  drift_status: false
+  p-value: 0.9925611176019148

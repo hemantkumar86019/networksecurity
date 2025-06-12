@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/heman/Downloads/ProjectML2/NetworkSecurity/mlruns/0/models/m-2f747c6492dd495ba351b56f2f244a65/artifacts
+creation_timestamp: 1749723807487
+experiment_id: '0'
+last_updated_timestamp: 1749723810674
+model_id: m-2f747c6492dd495ba351b56f2f244a65
+model_type: null
+name: model
+source_run_id: 8cc82b0397764936bee2b2aac251f891
+status: 2
+status_message: null
